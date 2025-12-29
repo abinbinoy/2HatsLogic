@@ -1,0 +1,183 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-link {
+    font-family: 'Proxima Nova', -apple-system, sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-link.active-link {
+    border-bottom: 2px solid #000;
+}
+
+.bi {
+    font-size: 1.2rem;
+}
+
+.hero-section {
+    background-image: url('./assets/images/cover.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-card {
+    background-color: rgba(108, 117, 125, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+.hero-card h1 {
+    font-size: 2rem;
+}
+
+.hero-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.btn-light {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.offcanvas {
+    background: #fff;
+}
+
+.offcanvas .nav-link {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.offcanvas .nav-link:hover {
+    background: #f8f9fa;
+}
+
+.divider {
+    width: 70px;
+    height: 3px;
+    background-color: #C4C4C4;
+}
+
+.product-card {
+    position: relative;
+    overflow: visible;
+    margin-bottom: 40px;
+}
+
+.product-card img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.tall img {
+    height: 500px;
+}
+
+.small img {
+    height: 230px;
+}
+
+.overlay-box {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-box h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.overlay-box p {
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.project-item img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+}
+
+.project-info h5 {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.project-info small {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.btn-view-all {
+    background-color: #111;
+    border-radius: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-view-all:hover {
+    background-color: #333;
+}
+
+.footer {
+    background-color: #0f0f0f;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #999;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+address {
+    line-height: 1.8;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .tall img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-card {
+        margin-top: 20px;
+    }
+}
